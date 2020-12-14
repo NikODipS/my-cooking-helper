@@ -87,29 +87,30 @@ export default {
 			name: "difficulty",
 			title: "Difficoltà",
 			type: "string",
-			layout: "radio",
-			list: [
-				{
-					value: 1,
-					title: "Facile",
-				},
-				{
-					value: 2,
-					title: "Medio",
-				},
-				{
-					value: 3,
-					title: "Difficle",
-				},
-				{
-					value: 4,
-					title: "Cheff 6*",
-				},
-				{
-					value: 5,
-					title: "Mamma",
-				},
-			],
+			options: {
+				list: [
+					{
+						value: "easy",
+						title: "Facile",
+					},
+					{
+						value: "medium",
+						title: "Medio",
+					},
+					{
+						value: "hard",
+						title: "Difficle",
+					},
+					{
+						value: "cheff",
+						title: "Cheff 6*",
+					},
+					{
+						value: "my_mama",
+						title: "Mamma",
+					},
+				],
+			},
 		},
 		{
 			name: "body",
