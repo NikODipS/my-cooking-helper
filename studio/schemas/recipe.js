@@ -106,7 +106,7 @@ export default {
 						title: "Cheff 6*",
 					},
 					{
-						value: "my_mama",
+						value: "mama",
 						title: "Mamma",
 					},
 				],

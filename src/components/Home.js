@@ -10,7 +10,7 @@ export default function Home() {
 				className="absolute object-cover w-full h-full"
 			/>
 			<section className="relative min-h-screen flex items-center justify-center">
-				<hi className="text-huge text-green-900 font-bold cool-text leading-none lg:leading-snug bg-green-200 bg-opacity-25 px-4 rounded-xl">
+				<hi className="text-huge text-blue-900 font-bold cool-text leading-none lg:leading-snug bg-blue-200 bg-opacity-50 px-8 py-2 rounded-xl">
 					Let's Cook Something!
 				</hi>
 			</section>

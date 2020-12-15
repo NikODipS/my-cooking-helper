@@ -6,7 +6,7 @@
   font-weight: 400;
 }
 
-.prose img {
+.prose img:not(.custom-image) {
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
@@ -14,4 +14,8 @@
 
 .text-huge {
   font-size: 120px;
+}
+
+.group:hover .group-hover\:translate-0 {
+  --tw-translate-x: 0;
 }

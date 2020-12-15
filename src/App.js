@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 function App() {
 	return (
 		<BrowserRouter>
-    <Navbar />
+			<Navbar />
 			<Switch>
 				<Route component={Home} path="/" exact />
 				<Route component={SingleRecipe} path="/recipe/:slug" />
